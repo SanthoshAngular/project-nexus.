@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-nexus./static/css/main.0545ef10.css",
+    "main.js": "/project-nexus./static/js/main.fa52aec8.js",
+    "static/js/453.31af582b.chunk.js": "/project-nexus./static/js/453.31af582b.chunk.js",
+    "index.html": "/project-nexus./index.html",
+    "main.0545ef10.css.map": "/project-nexus./static/css/main.0545ef10.css.map",
+    "main.fa52aec8.js.map": "/project-nexus./static/js/main.fa52aec8.js.map",
+    "453.31af582b.chunk.js.map": "/project-nexus./static/js/453.31af582b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0545ef10.css",
+    "static/js/main.fa52aec8.js"
+  ]
+}
