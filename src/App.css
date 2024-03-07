@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  background: linear-gradient(135deg, rgb(191, 230, 253), rgb(108, 153, 180), rgb(56, 117, 155));
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url('./background.jpg');
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
   color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid white;
 }
 
-.App-link {
-  color: #61dafb;
+.signupbtn,
+.loginbtn {
+  background: linear-gradient(135deg, rgb(4, 64, 110), rgb(4, 70, 120), rgb(6, 91, 157));
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+button:hover {
+  background: linear-gradient(135deg, rgb(6, 91, 157), rgb(4, 70, 120), rgb(4, 64, 110));
+}
+
+h4 {
+  text-align: center;
+  cursor: pointer;
+  color: rgb(207, 203, 203);
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+input:focus {
+  background-color: rgb(219, 232, 240);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: rgb(245, 0, 0);
+  font-weight: bold;
+  text-align: center;
+}
+
+.social-login {
+  width: 83%;
+  margin-top: 10px;
+}
+
+.Signinwemail a {
+  color: white;
+  text-decoration: none;
+}
+
+.Signinwemail {
+  text-align: center;
+}
+
+
+
+.icon {
+  padding-right: 5px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 90%;
+    max-width: 300px;
   }
 }
