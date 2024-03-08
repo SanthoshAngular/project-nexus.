@@ -30,7 +30,7 @@ const App = () => {
   const handleLoginPasswordChange = (password) => {
     setLoginPassword(password);
     if (!/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{6,10}/.test(password)) {
-      setLoginPasswordError('Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be between 6 to 10 characters long');
+      setLoginPasswordError('Wrong Password');
     } else {
       setLoginPasswordError('');
     }
